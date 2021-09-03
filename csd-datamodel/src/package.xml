@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">    
+    <types>
+        <members>Dipendente__c.User__c</members>
+        <members>Gestione_Nota_Spese__mdt.Prezzo__c</members>
+        <members>Time_Management__c.Comune_di_Destinazione__c</members>
+        <members>Time_Management__c.Comune_di_Partenza__c</members>
+        <members>Time_Management__c.Costo__c</members>
+        <members>Time_Management__c.Data_Giustificativo__c</members>
+        <members>Time_Management__c.Dipendente__c</members>
+        <members>Time_Management__c.Fine_Trasferta__c</members>
+        <members>Time_Management__c.Giustificativo__c</members>
+        <members>Time_Management__c.Inizio_Trasferta__c</members>
+        <members>Time_Management__c.Mezzo_di_trasporto__c</members>
+        <members>Time_Management__c.Note__c</members>
+        <members>Time_Management__c.Regione_di_Destinazione__c</members>
+        <members>Time_Management__c.Regione_di_Partenza__c</members>
+        <members>Time_Management__c.Spesa_da_Autorizzare__c</members>
+        <members>Time_Management__c.Status__c</members>
+        <name>CustomField</name>
+    </types>    
+    <types>
+        <members>Dipendente__c</members>
+        <members>Gestione_Nota_Spese__mdt</members>
+        <members>Time_Management__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Time_Management__c</members>
+        <name>CustomTab</name>
+    </types>    
+    <types>
+        <members>Provincia</members>
+        <members>Regione</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>Dipendente__c-Dipendente Layout</members>
+        <members>Gestione_Nota_Spese__mdt-Gestione Nota Spese Layout</members>
+        <members>Time_Management__c-Cartellino Layout</members>
+        <members>Time_Management__c-Spese Layout</members>
+        <members>Time_Management__c-Time Management Layout</members>
+        <members>Time_Management__c-Trasferte Layout</members>
+        <name>Layout</name>
+    </types>    
+    <types>
+        <members>Dipendente__c.All</members>
+        <members>Time_Management__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Gruppo_Vendita</members>
+        <members>Manager</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Time_Management__c.Cartellino</members>
+        <members>Time_Management__c.Nota_Spese</members>
+        <members>Time_Management__c.Trasferte</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>unfiled$public/Time_Management_Report_aRv</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>Time_Management</members>
+        <name>ReportType</name>
+    </types>
+    <version>52.0</version>
+</Package>
