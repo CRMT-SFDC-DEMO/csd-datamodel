@@ -4,7 +4,7 @@
         <editable>true</editable>
         <field>Dipendente__c.User__c</field>
         <readable>true</readable>
-    </fieldPermissions>
+    </fieldPermissions> 
     <fieldPermissions>
         <editable>true</editable>
         <field>Time_Management__c.Comune_di_Destinazione__c</field>
