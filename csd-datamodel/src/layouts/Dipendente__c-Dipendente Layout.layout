@@ -88,18 +88,6 @@
     </platformActionList>
     <relatedLists>
         <fields>NAME</fields>
-        <relatedList>Cartellino__c.Dipendente__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Spese__c.Dipendente__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Trasferte__c.Dipendente__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
         <relatedList>Time_Management__c.Dipendente__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>

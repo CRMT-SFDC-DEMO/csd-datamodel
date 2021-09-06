@@ -3,11 +3,7 @@
     <applicationVisibilities>
         <application>HR_Service_Tool</application>
         <visible>true</visible>
-    </applicationVisibilities>
-    <classAccesses>
-        <apexClass>dataTableController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    </applicationVisibilities>    
     <fieldPermissions>
         <editable>true</editable>
         <field>Dipendente__c.User__c</field>

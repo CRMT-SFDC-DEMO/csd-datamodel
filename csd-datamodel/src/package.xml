@@ -26,6 +26,7 @@
         <name>CustomObject</name>
     </types>
     <types>
+		<members>Dipendente__c</members>
         <members>Time_Management__c</members>
         <name>CustomTab</name>
     </types>    
