@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">    
     <types>
+      <members>HR_Service_Tool</members>
+      <name>CustomApplication</name>
+    </types>
+	<types>
         <members>Dipendente__c.User__c</members>
         <members>Gestione_Nota_Spese__mdt.Prezzo__c</members>
         <members>Time_Management__c.Comune_di_Destinazione__c</members>
