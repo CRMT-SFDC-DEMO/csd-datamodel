@@ -13,6 +13,8 @@
     <tabs>standard-home</tabs>    
     <tabs>Time_Management__c</tabs>
     <tabs>Dipendente__c</tabs>
+	<tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>HR_Service_Tool_UtilityBar</utilityBar>
 </CustomApplication>
