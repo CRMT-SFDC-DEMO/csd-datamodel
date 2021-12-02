@@ -1247,6 +1247,11 @@
     <label>Time Management</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Status__c</columns>
+        <columns>Dipendente__c</columns>
+        <columns>Note__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
