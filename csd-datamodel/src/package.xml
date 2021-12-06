@@ -69,6 +69,7 @@
         <name>RecordType</name>
     </types>
     <types>
+        <members>unfiled$public/Costo_Time_Management_Report_q9M</members>
         <members>unfiled$public/Time_Management_Report_aRv</members>
         <name>Report</name>
     </types>

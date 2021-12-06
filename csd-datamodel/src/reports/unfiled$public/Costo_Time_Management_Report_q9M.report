@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
     <columns>
-        <field>Time_Management__c$Giustificativo__c</field>
-    </columns>
-    <columns>
-        <field>Time_Management__c$Data_Giustificativo__c</field>
-    </columns>
-    <columns>
-        <field>Time_Management__c$Inizio_Trasferta__c</field>
-    </columns>
-    <columns>
-        <field>Time_Management__c$Fine_Trasferta__c</field>
+        <field>Time_Management__c$Name</field>
     </columns>
     <columns>
         <aggregateTypes>Sum</aggregateTypes>
         <field>Time_Management__c$Costo__c</field>
     </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Time_Management__c$Spesa_da_Autorizzare__c</field>
+    </columns>
+    <columns>
+        <field>Time_Management__c$Note__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Time_Management__c$RecordType</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Time_Management__c.Nota_Spese</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
     <format>Summary</format>
     <groupingsDown>
-        <dateGranularity>Month</dateGranularity>
+        <dateGranularity>MonthInYear</dateGranularity>
         <field>Time_Management__c$CreatedDate</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
@@ -27,12 +34,7 @@
         <field>Time_Management__c$Dipendente__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>Time_Management__c$RecordType</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsDown>
-    <name>Time Management Summary</name>
+    <name>Riepilogo Note Spese</name>
     <params>
         <name>co</name>
         <value>1</value>
@@ -44,6 +46,6 @@
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>Time_Management__c$CreatedDate</dateColumn>
-        <interval>INTERVAL_CURPREVQ</interval>
+        <interval>INTERVAL_CURFY</interval>
     </timeFrameFilter>
 </Report>
