@@ -4,10 +4,6 @@
         <application>HR_Service_Tool</application>
         <visible>true</visible>
     </applicationVisibilities>
-	<customMetadataTypeAccesses>
-        <enabled>true</enabled>
-        <name>Gestione_Nota_Spese__mdt</name>
-    </customMetadataTypeAccesses>
     <fieldPermissions> 
         <editable>true</editable>
         <field>Dipendente__c.User__c</field>
