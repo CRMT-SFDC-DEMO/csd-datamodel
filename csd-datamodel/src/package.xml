@@ -34,6 +34,11 @@
         <members>Time_Management__c</members>
         <name>CustomTab</name>
     </types>
+	<types>
+        <members>TMTEDashboard</members>
+        <members>TMTEDashboard/fqBjuMfIzzDaPnyxUqBINkQZiKQHid</members>
+        <name>Dashboard</name>
+    </types>
     <types>
       <members>HR_Service_Tool_UtilityBar</members>
       <name>FlexiPage</name>
