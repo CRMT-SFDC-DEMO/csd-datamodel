@@ -21,7 +21,6 @@
             <operator>equals</operator>
             <value>Time_Management__c.Nota_Spese</value>
         </criteriaItems>
-        <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>
